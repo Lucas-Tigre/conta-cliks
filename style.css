@@ -6,13 +6,23 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+
+  /* Imagem de fundo */
+  background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413');
+  background-size: cover;          /* Faz a imagem cobrir toda a tela, sem distorcer */
+  background-position: center;     /* Centraliza a imagem */
+  background-repeat: no-repeat;    /* Evita que a imagem se repita */
 }
 
 #contador {
   font-size: 48px;
   margin-bottom: 20px;
   color: #333;
+
+  /* Fundo semi-transparente para melhor leitura */
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 #botao {
@@ -29,4 +39,3 @@ body {
 #botao:hover {
   background-color: #45a049;
 }
-
