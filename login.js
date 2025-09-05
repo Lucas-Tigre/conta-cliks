@@ -17,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // O seu nome de usuário é 'lucas Guercheski' e a sua senha é '17052008'
         const correctUsername = 'lucas guercheski';
         const correctPassword = '17052008';
-        const correctUsername = 'Antonio';
-        const correctPassword = 'torresmo';
 
         // Verifica se o usuário e a senha digitados são iguais às credenciais corretas
         if (usernameInput === correctUsername && passwordInput === correctPassword) {
