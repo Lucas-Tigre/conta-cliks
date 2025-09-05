@@ -1,60 +1,68 @@
+/* Estilos para o corpo da página */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0; /* Remove a margem padrão */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #f0f2f5; /* Cor de fundo da página */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
 }
 
+/* Estilos para o container do login */
 .login-container {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    text-align: center;
+    background-color: #ffffff; /* Cor de fundo do container */
+    padding: 40px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    width: 350px; /* Largura do container */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
+/* Estilos para o logotipo */
 .logo {
-    width: 100px;
-    margin-bottom: 20px;
+    width: 100px; /* Largura do logo */
+    margin-bottom: 20px; /* Margem inferior */
 }
 
+/* Estilos para o grupo de input (label e campo de texto) */
 .input-group {
-    margin-bottom: 15px;
-    text-align: left;
+    margin-bottom: 15px; /* Margem inferior */
+    text-align: left; /* Alinha o texto à esquerda */
 }
 
+/* Estilos para as labels dos campos */
 .input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
+    display: block; /* Faz a label ocupar uma linha inteira */
+    margin-bottom: 5px; /* Margem inferior */
+    font-weight: bold; /* Texto em negrito */
+    color: #333; /* Cor do texto */
 }
 
+/* Estilos para os campos de input */
 .input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
 }
 
+/* Estilos para o botão de login */
 button {
-    width: 100%;
-    padding: 12px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    width: 100%; /* Largura total */
+    padding: 12px; /* Espaçamento interno */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    transition: background-color 0.3s ease; /* Efeito de transição suave na cor de fundo */
 }
 
+/* Efeito hover para o botão (quando o mouse está sobre ele) */
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Cor de fundo mais escura */
 }
