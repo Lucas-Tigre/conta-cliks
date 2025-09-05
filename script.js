@@ -5,3 +5,4 @@ document.getElementById("botao").addEventListener("click", () => {
   cliques++; // Aumenta o valor da variável "cliques" em 1
   document.getElementById("contador").textContent = cliques; // Atualiza o texto do elemento "contador" com o novo valor
 });
+

@@ -1,6 +1,6 @@
 // Aguarda o conteúdo da página ser totalmente carregado antes de executar o script
 document.addEventListener('DOMContentLoaded', function() {
-
+    
     // Pega o elemento do formulário de login pelo seu ID
     const loginForm = document.getElementById('login-form');
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = 'game.html';
         } else {
             // Se as credenciais estiverem incorretas, exibe uma mensagem de erro
-            alert('Usuário ou senha incorretos.');
+            alert('Usuário ou senha incorretos. tente novamente');
         }
     });
 });
