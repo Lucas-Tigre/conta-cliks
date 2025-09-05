@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Verifica se o usuário e a senha digitados são iguais às credenciais corretas
         if (usernameInput === correctUsername && passwordInput === correctPassword) {
-            // Se as credenciais estiverem corretas, redireciona para a página do jogo (index.html)
+            // Se as credenciais estiverem corretas, redireciona para a página do jogo (game.html)
             alert('Login bem-sucedido! Redirecionando para o jogo...');
-            window.location.href = 'index.html';
+            window.location.href = 'game.html';
         } else {
             // Se as credenciais estiverem incorretas, exibe uma mensagem de erro
             alert('Usuário ou senha incorretos.');
