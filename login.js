@@ -10,13 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
         // Credenciais corretas
         const correctUsername = 'lucas Guercheski';
         const correctPassword = '17052008';
+        const correctUsername = 'antonio lindo'
+        const correctPassword = 'torresmo'
 
         if (usernameInput === correctUsername && passwordInput === correctPassword) {
             alert('Login bem-sucedido!');
             // Opcional: redirecionar para outra página após o login
             // window.location.href = 'pagina_principal.html';
         } else {
-            alert('Usuário ou senha incorretos.');
+            alert('Usuário ou senha incorretos. tente novamente');
         }
     });
 });
