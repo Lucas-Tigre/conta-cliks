@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br"> <!-- Define que o idioma da página é português do Brasil -->
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" /> <!-- Permite usar caracteres com acentos -->
-  <title>Conta clique universal do trabalho do toinho</title> <!-- Nome que aparece na aba do navegador -->
-  <link rel="stylesheet" href="style.css" /> <!-- Conecta o CSS para estilizar a página -->
+    <!-- Define a codificação de caracteres e a escala da página para dispositivos móveis -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>Login</title>
+
+    <!-- Link para a folha de estilos CSS que estiliza a página -->
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <!-- Container principal que agrupa todos os elementos do login -->
+    <div class="login-container">
 
-  <!-- Div que vai mostrar o número de cliques, começa com 0 -->
-  <div id="contador">0</div>
+        <!-- Imagem do logotipo -->
+        <img src="logo.png" alt="Logotipo" class="logo">
 
-  <!-- Botão para clicar e aumentar o contador -->
-  <button id="botao">Clique Aqui</button>
+        <!-- Formulário de login -->
+        <form id="login-form">
 
-  <!-- Conecta o JavaScript que vai controlar o contador -->
-  <script src="script.js"></script>
+            <!-- Grupo de input para o nome de usuário -->
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <!-- Grupo de input para a senha -->
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <!-- Botão para submeter o formulário -->
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <!-- Link para o arquivo JavaScript que controla a lógica do login -->
+    <script src="login.js"></script>
 </body>
 </html>
