@@ -15,8 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Define as credenciais corretas.
         // O seu nome de usuário é 'lucas Guercheski' e a sua senha é '17052008'
-        const correctUsername = 'lucas Guercheski';
+        const correctUsername = 'lucas guercheski';
         const correctPassword = '17052008';
+        const correctUsername = 'Antonio';
+        const correctPassword = 'torresmo';
 
         // Verifica se o usuário e a senha digitados são iguais às credenciais corretas
         if (usernameInput === correctUsername && passwordInput === correctPassword) {
@@ -25,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = 'game.html';
         } else {
             // Se as credenciais estiverem incorretas, exibe uma mensagem de erro
-            alert('Usuário ou senha incorretos. tente novamente');
+            alert('Usuário ou senha incorretos. tente novamente. dica: [Usuario: Antonio][Senha: Apelido carinhoso dele] ');
         }
     });
 });
