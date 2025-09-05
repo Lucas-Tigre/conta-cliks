@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const passwordInput = document.getElementById('password').value;
 
         // Define as credenciais corretas.
-        // O seu nome de usuário é 'lucas Guercheski' e a sua senha é '17052008'
-        const correctUsername = 'lucas guercheski';
-        const correctPassword = '17052008';
+        // As linhas abaixo foram comentadas para corrigir um SyntaxError,
+        // pois 'correctUsername' e 'correctPassword' estavam sendo declarados duas vezes.
+        // const correctUsername = 'lucas guercheski';
+        // const correctPassword = '17052008';
         const correctUsername = 'Antonio';
         const correctPassword = 'torresmo';
 
