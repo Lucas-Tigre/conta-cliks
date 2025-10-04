@@ -15,5 +15,35 @@
 
   <!-- Conecta o JavaScript que vai controlar o contador -->
   <script src="script.js"></script>
+
+  <!-- Ícone do chat -->
+  <div id="chat-icon">💬</div>
+
+  <!-- Janela do chat -->
+  <div id="chat-window" class="hidden">
+    <div id="chat-header">
+      <h3>Chat</h3>
+      <button id="close-chat">X</button>
+    </div>
+    <div id="user-search">
+      <input type="text" id="search-input" placeholder="Buscar usuário por Gmail...">
+    </div>
+    <div id="conversations">
+      <!-- As conversas serão adicionadas aqui dinamicamente -->
+    </div>
+    <div id="chat-messages">
+      <div id="messages-header">
+        <button id="back-to-conversations"><</button>
+        <h4 id="current-chat-user"></h4>
+      </div>
+      <div id="messages-container">
+        <!-- As mensagens serão exibidas aqui -->
+      </div>
+      <div id="message-input">
+        <input type="text" id="new-message" placeholder="Digite sua mensagem...">
+        <button id="send-message">Enviar</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
